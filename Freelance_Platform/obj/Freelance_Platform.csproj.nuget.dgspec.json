@@ -1,25 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lamou\\source\\repos\\Freelance_Platform\\Freelance_Platform\\Freelance_Platform.csproj": {}
+    "C:\\Users\\shayma\\Source\\Repos\\Freelance\\Freelance_Platform\\Freelance_Platform.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lamou\\source\\repos\\Freelance_Platform\\Freelance_Platform\\Freelance_Platform.csproj": {
+    "C:\\Users\\shayma\\Source\\Repos\\Freelance\\Freelance_Platform\\Freelance_Platform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lamou\\source\\repos\\Freelance_Platform\\Freelance_Platform\\Freelance_Platform.csproj",
+        "projectUniqueName": "C:\\Users\\shayma\\Source\\Repos\\Freelance\\Freelance_Platform\\Freelance_Platform.csproj",
         "projectName": "Freelance_Platform",
-        "projectPath": "C:\\Users\\lamou\\source\\repos\\Freelance_Platform\\Freelance_Platform\\Freelance_Platform.csproj",
-        "packagesPath": "C:\\Users\\lamou\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lamou\\source\\repos\\Freelance_Platform\\Freelance_Platform\\obj\\",
+        "projectPath": "C:\\Users\\shayma\\Source\\Repos\\Freelance\\Freelance_Platform\\Freelance_Platform.csproj",
+        "packagesPath": "C:\\Users\\shayma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shayma\\Source\\Repos\\Freelance\\Freelance_Platform\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\lamou\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\shayma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -27,8 +25,6 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
         }
       }
     }

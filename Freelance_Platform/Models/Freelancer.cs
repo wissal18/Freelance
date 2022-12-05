@@ -17,5 +17,6 @@ namespace Freelance_Platform.Models
         public string Country { get; set; }
         public int PricePerHour { get; set; }
 
+        
     }
 }

@@ -16,5 +16,9 @@ namespace Freelance_Platform.Models
         public string Bio { get; set; }
         public string Country { get; set; }
 
+        //Relationships
+        public List<Project> Projects { get; set; }
+
+
     }
 }

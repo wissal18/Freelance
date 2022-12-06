@@ -13,5 +13,8 @@ namespace Freelance_Platform.Models
         public int TalentID { get; set; }
         public string Title { get; set; }
         public TalentCategory Category { get; set; }
+        public List<Projects_Talents> Projects_Talents { get; set; }
+        public List<Freelancers_Talents> Freelancers_Talents { get; set; }
+
     }
 }

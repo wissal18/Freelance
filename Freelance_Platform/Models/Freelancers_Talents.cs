@@ -8,9 +8,9 @@ namespace Freelance_Platform.Models
     public class Freelancers_Talents
     {
         public int TalentID { get; set; }
-        public Talent talent { get; set; }
+        public Talent Talent { get; set; }
 
-        public Freelancer freelancer { get; set; }
+        public Freelancer Freelancer { get; set; }
         public int FreelancerID { get; set; }
 
     }

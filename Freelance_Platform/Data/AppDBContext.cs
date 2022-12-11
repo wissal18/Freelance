@@ -36,7 +36,7 @@ namespace Freelance_Platform.Data
 
             base.OnModelCreating(modelBuilder);
         }
-
+ 
         public DbSet<Freelancer> Freelancers { get; set; }
         public DbSet<Talent> Talents { get; set; }
         public DbSet<Client> Clients { get; set; }

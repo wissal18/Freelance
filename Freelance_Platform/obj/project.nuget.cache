@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DhRo9UJWmvmFdhxy1rOggIEK636kXkrj93sKD4q8/IRQ0np67K/JvBmUlqUUopl7QcddZQk00ywCHyquuQOgVw==",
+  "dgSpecHash": "w1+WKB+1gHoe1QlX6xp5oktp7RJH5TKO+J50oYjE9bxsjVvaM1fYbxjV7ckm/jaGMArJNUNLb4NqxGN2wkRO1A==",
   "success": true,
   "projectFilePath": "C:\\Users\\lamou\\source\\repos\\Freelance_Platform\\Freelance_Platform\\Freelance_Platform.csproj",
   "expectedPackageFiles": [
@@ -101,10 +101,14 @@
     "C:\\Users\\lamou\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\lamou\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\lamou\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\lamou\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
-    "C:\\Users\\lamou\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\lamou\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\lamou\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\lamou\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problème de lecture du fichier cache C:\\Users\\lamou\\source\\repos\\Freelance_Platform\\Freelance_Platform\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

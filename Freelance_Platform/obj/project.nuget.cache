@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0TVhy8c/E2dOiT6XadzFsxWyVd+fsb5bnKMyJVLIFMRVK2YVHj9oWfHKGAkZFIYHDy+atqEnR9xKNUioN/uw7g==",
+  "dgSpecHash": "ume8OgaMwuMsUx54pMsNUW0Hg9WtsG0RqDtf+GxZmY+z7xaXhnEz1/z6QifYwOFEKhn5YcymyLopL4lYlAiteQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shayma\\Source\\Repos\\Freelance\\Freelance_Platform\\Freelance_Platform.csproj",
+  "projectFilePath": "C:\\Users\\shayma\\source\\repos\\Freelance\\Freelance_Platform\\Freelance_Platform.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shayma\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\shayma\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

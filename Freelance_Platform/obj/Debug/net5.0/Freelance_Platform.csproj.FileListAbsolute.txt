@@ -138,3 +138,4 @@ C:\Users\lamou\source\repos\Freelance_Platform\Freelance_Platform\obj\Debug\net5
 C:\Users\lamou\source\repos\Freelance_Platform\Freelance_Platform\obj\Debug\net5.0\ref\Freelance_Platform.dll
 C:\Users\lamou\source\repos\Freelance_Platform\Freelance_Platform\obj\Debug\net5.0\Freelance_Platform.pdb
 C:\Users\lamou\source\repos\Freelance_Platform\Freelance_Platform\obj\Debug\net5.0\Freelance_Platform.genruntimeconfig.cache
+C:\Users\lamou\source\repos\Freelance_Platform\Freelance_Platform\obj\Debug\net5.0\Razor\Views\Freelancers\Index.cshtml.g.cs

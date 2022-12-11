@@ -1,5 +1,6 @@
 ﻿using Freelance_Platform.Data;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,10 +16,9 @@ namespace Freelance_Platform.Controllers
         {
             _context = context;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var data = _context.Freelancers.ToList();
-
+            var allFreelancers = await _context.Freelancers.ToListAsync();
             return View();
         }
     }

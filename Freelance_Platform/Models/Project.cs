@@ -11,10 +11,13 @@ namespace Freelance_Platform.Models
     {
         [Key]
         public int ProjectID { get; set; }
+        [Display(Name ="Title")]
         public string Title { get; set; }
+        [Display(Name = "Description")]
         public string Description { get; set; }
         public int EstimatedDuration { get; set; }
         public string ExperienceLevel { get; set; }
+        [Display(Name = "Post Date")]
         public DateTime PostDate  { get; set; } 
         public string Country { get; set; }
 
@@ -22,6 +25,7 @@ namespace Freelance_Platform.Models
 
         public int ClientID { get; set; }
         [ForeignKey("ClientID")]
+        [Display(Name ="Client")]
         public Client Client { get; set; }
 
 

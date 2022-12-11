@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Project>
+
+@{
+    ViewData["Title"] = "List of Projects";
+
+}
+
+<div class="row">
+   
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 col-xs-6 border-primary mb-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-12">
+                            <div class="card-header text-white bg-info">
+                                <p class="card-text">
+                                    <h5 class="card-title">
+                                        @item.Title
+                                       
+                                        
+                                            <a class="text-white float-right" ><i class="bi bi-pencil-square"></i></a>
+                                        
+                                    </h5>
+                                </p>
+                            </div>
+                        </div>
+                 
+                        <div >
+                            <div class="card-body">
+                                <p class="card-text">@item.Description</p>
+                                <p class="card-text"><b>Client: </b>@item.Client.FullName</p>
+                                <p class="card-text"><b>Duration: </b>@item.EstimatedDuration</p>
+                                <p class="card-text"><b>Country: </b>@item.Country</p>
+                                <p class="card-text"><b>Level of experience: </b>@item.ExperienceLevel</p>
+                                <p class="card-text"><b>Date of the Post </b>@item.PostDate</p>
+                                @*<p class="card-text"><b>Talents </b></p>*@
+
+
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card-footer ">
+                                <p class="card-text">
+                                    <a class="btn btn-outline-primary float-right" >
+                                        <i class="bi bi-eye-fill"></i> Show Details
+                                    </a>
+                                    <a class="btn btn-success text-white">
+                
+                                        <i class="bi bi-heart"></i> Add to Favoris 
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    }
+</div>

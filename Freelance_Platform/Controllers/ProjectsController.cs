@@ -17,8 +17,8 @@ namespace Freelance_Platform.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var allProjects = await _context.Projects.ToListAsync();
-            return View();
+            var allProjects = await _context.Projects.Include(n=>n.Client).ToListAsync();
+            return View(allProjects);
         }
     }
 }

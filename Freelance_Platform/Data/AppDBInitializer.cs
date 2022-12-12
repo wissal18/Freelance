@@ -152,6 +152,7 @@ namespace Freelance_Platform.Data
 
                     });
                     context.SaveChanges();
+                    
 
 
                 }
@@ -163,15 +164,15 @@ namespace Freelance_Platform.Data
                        new Projects_Talents()
                        {
                            TalentID = 1,
-                           ProjectID = 4
+                           ProjectID = 1
                        },
                        new Projects_Talents()
                        {
                            TalentID = 1,
-                           ProjectID = 5
+                           ProjectID = 2
                        }
 
-                    });
+                    }); ; ; ;
                     context.SaveChanges();
 
                 }

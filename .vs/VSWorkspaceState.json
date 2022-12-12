@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Freelance_Platform",
+    "\\Freelance_Platform\\Controllers",
     "\\Freelance_Platform\\Data",
     "\\Freelance_Platform\\Models"
   ],
-  "SelectedNode": "\\Freelance_Platform.sln",
+  "SelectedNode": "\\Freelance_Platform\\Controllers\\FreelancersController.cs",
   "PreviewInSolutionExplorer": false
 }

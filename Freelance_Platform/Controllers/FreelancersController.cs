@@ -22,5 +22,12 @@ namespace Freelance_Platform.Controllers
             var allFreelancers = await _service.GetAll();
             return View("Index1",allFreelancers);
         }
+
+        //Get: Freelancers/Create
+
+        public  IActionResult Create()
+        {
+            return View();
+        }
     }
 }

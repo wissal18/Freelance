@@ -142,3 +142,4 @@ C:\Users\lamou\source\repos\Freelance_Platform\Freelance_Platform\obj\Debug\net5
 C:\Users\lamou\source\repos\Freelance_Platform\Freelance_Platform\obj\Debug\net5.0\Razor\Views\Clients\Index.cshtml.g.cs
 C:\Users\lamou\source\repos\Freelance_Platform\Freelance_Platform\obj\Debug\net5.0\Razor\Views\Projects\Index.cshtml.g.cs
 C:\Users\lamou\source\repos\Freelance_Platform\Freelance_Platform\obj\Debug\net5.0\Razor\Views\Talents\Index.cshtml.g.cs
+C:\Users\lamou\source\repos\Freelance_Platform\Freelance_Platform\obj\Debug\net5.0\Razor\Views\Freelancers\Create.cshtml.g.cs

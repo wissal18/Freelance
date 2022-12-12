@@ -10,10 +10,13 @@ namespace Freelance_Platform.Models
     {
         [Key]
         public int ClientID { get; set; }
-
+        [Display(Name ="Profile Picture URL")]
         public string ProfilePictureURL { get; set; }
+        [Display(Name = "Full Name")]
         public string FullName { get; set; }
+        [Display(Name = "Biography")]
         public string Bio { get; set; }
+        [Display(Name = "Country")]
         public string Country { get; set; }
 
         //Relationships

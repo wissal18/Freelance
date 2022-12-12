@@ -11,7 +11,9 @@ namespace Freelance_Platform.Models
     {
         [Key]
         public int TalentID { get; set; }
+        [Display(Name ="Title")]
         public string Title { get; set; }
+        [Display(Name ="Category")]
         public TalentCategory Category { get; set; }
         public List<Projects_Talents> Projects_Talents { get; set; }
         public List<Freelancers_Talents> Freelancers_Talents { get; set; }

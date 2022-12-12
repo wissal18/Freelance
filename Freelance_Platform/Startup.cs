@@ -1,4 +1,5 @@
 using Freelance_Platform.Data;
+using Freelance_Platform.Data.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,6 +28,8 @@ namespace Freelance_Platform
         {
             //DbContext Config
             services.AddDbContext<AppDBContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnectionString")));//Translator
+            //Services configuration
+            services.AddScoped<IFreelancersService, FreelancersService>();
             services.AddControllersWithViews();
         }
 

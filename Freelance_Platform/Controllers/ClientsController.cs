@@ -19,7 +19,7 @@ namespace Freelance_Platform.Controllers
         public async Task<IActionResult> Index()
         {
             var allClients = await _context.Clients.ToListAsync();
-            return View();
+            return View(allClients);
         }
     }
 }

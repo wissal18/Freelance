@@ -15629,8 +15629,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\shayma\\source\\repos\\Freelance\\Freelance_Platform\\Views\\Projects\\Index.cshtml",
+      "TargetPath": "Views\\Projects\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\shayma\\source\\repos\\Freelance\\Freelance_Platform\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\shayma\\source\\repos\\Freelance\\Freelance_Platform\\Views\\Freelancers\\Index1.cshtml",
+      "TargetPath": "Views\\Freelancers\\Index1.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15639,8 +15649,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\shayma\\source\\repos\\Freelance\\Freelance_Platform\\Views\\Freelancers\\Index.cshtml",
-      "TargetPath": "Views\\Freelancers\\Index.cshtml",
+      "FilePath": "c:\\Users\\shayma\\source\\repos\\Freelance\\Freelance_Platform\\Views\\Talents\\Index.cshtml",
+      "TargetPath": "Views\\Talents\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15656,6 +15666,11 @@
     {
       "FilePath": "c:\\Users\\shayma\\source\\repos\\Freelance\\Freelance_Platform\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\shayma\\source\\repos\\Freelance\\Freelance_Platform\\Views\\Clients\\Index.cshtml",
+      "TargetPath": "Views\\Clients\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -1,5 +1,6 @@
 ﻿using Freelance_Platform.Data;
 using Freelance_Platform.Data.Services;
+using Freelance_Platform.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -28,6 +29,19 @@ namespace Freelance_Platform.Controllers
         public  IActionResult Create()
         {
             return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create([Bind("FullName,ProfilePictureURL,Bio,Country,PricePerHour")]Freelancer freelancer)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(freelancer);
+            }
+           _service.Add(freelancer);
+            return RedirectToAction(nameof(Index));
+
+             
         }
     }
 }

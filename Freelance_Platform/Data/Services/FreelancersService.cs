@@ -18,7 +18,8 @@ namespace Freelance_Platform.Data.Services
         }
         public void Add(Freelancer freelancer)
         {
-            throw new NotImplementedException();
+            _context.Freelancers.Add(freelancer);
+            _context.SaveChanges();
         }
 
         public void Delete(int id)

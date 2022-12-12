@@ -1,4 +1,5 @@
 ﻿using Freelance_Platform.Data;
+using Freelance_Platform.Data.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -10,15 +11,15 @@ namespace Freelance_Platform.Controllers
 {
     public class FreelancersController : Controller
     {
-        private readonly AppDBContext _context;
+        private readonly IFreelancersService _service;
 
-        public FreelancersController(AppDBContext context)
+        public FreelancersController(IFreelancersService service)
         {
-            _context = context;
+            _service = service;
         }
         public async Task<IActionResult> Index()
         {
-            var allFreelancers = await _context.Freelancers.ToListAsync();
+            var allFreelancers = await _service.GetAll();
             return View("Index1",allFreelancers);
         }
     }

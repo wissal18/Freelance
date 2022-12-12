@@ -4,8 +4,10 @@
     "\\Freelance_Platform",
     "\\Freelance_Platform\\Controllers",
     "\\Freelance_Platform\\Data",
-    "\\Freelance_Platform\\Models"
+    "\\Freelance_Platform\\Models",
+    "\\Freelance_Platform\\Views",
+    "\\Freelance_Platform\\Views\\Freelancers"
   ],
-  "SelectedNode": "\\Freelance_Platform\\Controllers\\FreelancersController.cs",
+  "SelectedNode": "\\Freelance_Platform\\Views\\Freelancers\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

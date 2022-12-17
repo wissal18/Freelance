@@ -9,7 +9,7 @@ namespace Freelance_Platform.Models
     public class Freelancer
     {
         [Key]
-        public int FreelancerID { get; set; }
+        public int Id { get; set; }
         [Display(Name = "Profile Picture")]
         [Required(ErrorMessage ="Profile Picture is required")]
         public string ProfilePictureURL { get; set; }

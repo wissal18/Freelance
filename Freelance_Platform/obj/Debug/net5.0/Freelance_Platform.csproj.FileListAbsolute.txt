@@ -146,8 +146,8 @@ C:\Users\lamou\source\repos\Freelance_Platform\Freelance_Platform\obj\Debug\net5
 C:\Users\lamou\source\repos\Freelance_Platform\Freelance_Platform\obj\Debug\net5.0\Razor\Views\Clients\Index.cshtml.g.cs
 C:\Users\lamou\source\repos\Freelance_Platform\Freelance_Platform\obj\Debug\net5.0\Razor\Views\Projects\Index.cshtml.g.cs
 C:\Users\lamou\source\repos\Freelance_Platform\Freelance_Platform\obj\Debug\net5.0\Razor\Views\Talents\Index.cshtml.g.cs
-<<<<<<< HEAD
 C:\Users\lamou\source\repos\Freelance_Platform\Freelance_Platform\obj\Debug\net5.0\Razor\Views\Freelancers\Create.cshtml.g.cs
-=======
 >>>>>>> 11bd8cdfd2f221a908c2fca002c5a6a4615904a0
 >>>>>>> 6c2d847f433a804177084046f8c5991581fa4967
+C:\Users\lamou\source\repos\Freelance_Platform\Freelance_Platform\obj\Debug\net5.0\Razor\Views\Freelancers\Details.cshtml.g.cs
+C:\Users\lamou\source\repos\Freelance_Platform\Freelance_Platform\obj\Debug\net5.0\Razor\Views\Freelancers\Edit.cshtml.g.cs

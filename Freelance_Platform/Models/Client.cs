@@ -9,7 +9,7 @@ namespace Freelance_Platform.Models
     public class Client
     {
         [Key]
-        public int ClientID { get; set; }
+        public int Id { get; set; }
         [Display(Name ="Profile Picture URL")]
         public string ProfilePictureURL { get; set; }
         [Display(Name = "Full Name")]

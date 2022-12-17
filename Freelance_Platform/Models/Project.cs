@@ -10,7 +10,7 @@ namespace Freelance_Platform.Models
     public class Project
     {
         [Key]
-        public int ProjectID { get; set; }
+        public int Id { get; set; }
         [Display(Name ="Title")]
         public string Title { get; set; }
         [Display(Name = "Description")]
